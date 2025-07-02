@@ -22,14 +22,14 @@ document.addEventListener("DOMContentLoaded",()=>{
             card.className = 'card'
             card.innerHTML = `<div class="card">
                     <div class="top">
-                        <img src="images/productos/arandanos.jpg" alt="">
-                        <p class="titProd">PRODUCTO 1</p>
-                        <p class="descrpcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus natus </p>
+                        <img src="images/productos/${item.image}" alt="">
+                        <p class="titProd">${item.title}</p>
+                        <p class="descrpcion">${item.description} </p>
                         <a href="opiniones.html" class="resenias">ver reseñas</a>
                     </div>
                     <div class="bottom">
                         <div class="precio">
-                            <span>$1560</span> <button class="favorito"><i
+                            <span>${item.price}</span> <button class="favorito"><i
                                     class="fa-solid fa-heart"></i></button></span>
                         </div>
                         <div class="agregar">

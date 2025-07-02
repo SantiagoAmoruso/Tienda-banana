@@ -3,8 +3,8 @@
 "id": 1,
 "title":"arandanos",
 "price":1100,
-"description":"arandanos",
-"imagen": "arandanos.jpg",
+"description":"arandanos frescos",
+"image": "arandanos.jpg",
 "stock": 10
 },
 
@@ -13,7 +13,7 @@
 "title":"frutillas",
 "price":1200,
 "description":"frutillas frescas",
-"imagen": "frutillas.jpg",
+"image": "frutillas.jpg",
 "stock": 10
 },
 
@@ -22,7 +22,7 @@
 "title":"bananas",
 "price":1500,
 "description":"bananas frescas",
-"imagen": "bananas.jpg",
+"image": "bananas.jpg",
 "stock": 10
 },
 
@@ -31,7 +31,7 @@
 "title":"sandias",
 "price":2000,
 "description":"sandias frescas",
-"imagen":"sandias.jpg",
+"image":"sandias.jpg",
 "stock":10
 },
 
@@ -40,7 +40,7 @@
 "title": "manzanas",
 "price":1500,
 "description":"manzanas frescas",
-"imagen":"manzanas.jpg",
+"image":"manzanas.jpg",
 "stock": 10
 },
 
@@ -49,7 +49,7 @@
 "title":"cerezas",
 "price":1200,
 "description":"cerezas frescas",
-"imagen": "cerezas.jpg",
+"image": "cerezas.jpg",
 "stock": 10
 },
 
@@ -58,7 +58,7 @@
 "title":"frambuesas",
 "price":1200,
 "description":"frambuesas frescas",
-"imagen": "frambuesas.jpg",
+"image": "frambuesas.jpg",
 "stock": 10
 },
 
@@ -67,7 +67,7 @@
 "title":"kiwis",
 "price":1200,
 "description":"kiwis frescos",
-"imagen": "kiwis.jpg",
+"image": "kiwis.jpg",
 "stock": 10
 },
 
@@ -76,7 +76,7 @@
 "title":"uvas",
 "price":1200,
 "description":"uvas frescas",
-"imagen": "uvas.jpg",
+"image": "uvas.jpg",
 "stock": 10
 }
 ]
