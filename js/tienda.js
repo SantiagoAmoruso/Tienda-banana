@@ -5,18 +5,19 @@ document.addEventListener("DOMContentLoaded",()=>{
         try{ response = await fetch(endpoint) 
              datos = await response.json()
              console.log(datos)
+             mostrarProductos(datos)
              //Show Products (data(argumento))   
         }
         catch (error){
-            console.log("error")
+            console.log(error)
         }
         }
         getProductos()
         
-        const contendorProd= document.querySelector('section.productos')
+        const contenedorProd= document.querySelector('section.productos')
 
         const mostrarProductos = (datos) =>{
-            datos.array.forEach(item => {
+            datos.forEach(item => {
             const card = document.createElement('div')
             card.className = 'card'
             card.innerHTML = `<div class="card">
