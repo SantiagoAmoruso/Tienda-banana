@@ -41,8 +41,12 @@ document.addEventListener("DOMContentLoaded",()=>{
                         </div>
                     </div>`
 
-                    contenedorProd.appendChild(card)
-            });
+                contenedorProd.appendChild(card)
+
+                card.querySelector(".addcarrito").onclick =() =>{
+                    agregarAlCarrito(item)
+                }
+                });
 
         }  
     })
