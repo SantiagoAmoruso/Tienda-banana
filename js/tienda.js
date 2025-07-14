@@ -44,11 +44,11 @@ document.addEventListener("DOMContentLoaded",()=>{
                 contenedorProd.appendChild(card)
 
                 card.querySelector("#addCarrito").onclick = () => {
-                    // const cant = parseInt(card.querySelector('[name="cant"]').value)
-                    // agregarAlCarrito(item, cant)
-                    agregarAlCarrito(item)
-    
+                    const cant = parseInt(card.querySelector('[name="cant"]').value)
+                    agregarAlCarrito(item, cant)
+                   
                 }
+               
                 });
 
         }  
