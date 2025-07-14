@@ -1,7 +1,7 @@
 const agregarAlCarrito = (item) => {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || []
+    console.log(carrito)
     carrito.push(item)
-    //JSON.stringify convierte los datos a formato json
-    localStorage.setItem("carrito", JSON.stringify(item))
-    alert('item agregado')
-}
+    localStorage.setItem("carrito", JSON.stringify(carrito))
+    alert('producto agregado')
+    }

@@ -37,14 +37,17 @@ document.addEventListener("DOMContentLoaded",()=>{
                                 <span class="descrpcion"> Cant </span>
                                 <input type="number" name="cant" id="cant" min="0" value="1">
                             </div>
-                            <button class="addcarrito"><i class="fa-solid fa-cart-plus"></i></button>
+                            <button class="addCarrito" id="addCarrito"><i class="fa-solid fa-cart-plus"></i></button>
                         </div>
                     </div>`
 
                 contenedorProd.appendChild(card)
 
-                card.querySelector(".addcarrito").onclick =() =>{
+                card.querySelector("#addCarrito").onclick = () => {
+                    // const cant = parseInt(card.querySelector('[name="cant"]').value)
+                    // agregarAlCarrito(item, cant)
                     agregarAlCarrito(item)
+    
                 }
                 });
 
